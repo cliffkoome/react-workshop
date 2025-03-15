@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.logo-name {
+  display: flex;
+  flex: 1;
+}
+
+.navlink-container {
+  width: 60%;
+}
+
+.navlink-container ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlinks li {
+  margin-left: 10px;
+  transition: all 0.15s ease-in-out;
+}
+
+.navlinks li:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+}
