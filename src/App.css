@@ -1,16 +1,16 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
   height: 70px;
 }
 
 .logo-name {
   display: flex;
-  flex: 1;
+  width: fit-content;
 }
 
 .navlink-container {
-  width: 60%;
+  width: 50%;
+  margin: auto;
 }
 
 .navlink-container ul{
@@ -36,12 +36,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 20%;
+  width: fit-content;
 }
 
 .name {
   display: flex;
   align-items: center;
-  justify-content: center;
+  margin-left: 5px;
+  color: aqua;
+  font-size: 1.25rem;
   width: 15%;
 }

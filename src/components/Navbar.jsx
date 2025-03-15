@@ -1,10 +1,12 @@
+import ReactLogo from '/src/assets/react.svg'
+
 export default function Navbar() {
   return (
     <>
       <div className="navbar">
         <div className="logo-name">
-          <div className="logo"><h1>Logo</h1></div>
-          <div className="name">React</div>
+          <div className="logo"><img src={ReactLogo} alt="React Logo" /></div>
+          <div className="name">REACT</div>
         </div>
         <div className="navlink-container">
           <ul className="navlinks">
